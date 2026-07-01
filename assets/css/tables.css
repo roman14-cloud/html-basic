@@ -1,0 +1,25 @@
+body{
+    background-color: aquamarine;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+h2{
+    color: burlywood;
+    text-align: center;
+    
+}
+table{
+    width: 70%;
+    margin: 0px auto;
+}
+th{
+    background-color: coral;
+    color: white;
+}
+table tr{
+    border: 1px solid green
+
+}
+table,td,th{
+    border: 1px solid yellowgreen
+}

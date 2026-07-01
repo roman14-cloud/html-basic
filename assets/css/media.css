@@ -1,0 +1,20 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+iframe,video{
+border: 3px solid grey;
+border-radius: 10px;
+box-shadow: 0 0 10px indigo;
+margin-bottom: 25px;
+}
+h3{
+    color: crimson;
+}
+video{
+    background-color: bisque;
+}
+video :hover{
+    border-color: aqua;
+}
+]

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animations</title>
+    <style>
+        h1{
+        color: aqua;
+        animation-duration: 6s;
+        animation-name: slidein;
+        animation-iteration-count: infinite;
+        }
+        #hello{
+            animation-name: myanimation;
+            animation-duration: 5s;
+            animation-iteration-count: infinite ;
+        }
+         #mydiv{
+            width: 200px;
+            height: 200px;
+            background-color:yellow;
+            animation:spin 3s infinite;
+           }
+        @keyframes myanimation{ 
+            10%{ color: red; }
+           50% {color: yellow; }
+           100% {color: green;}}
+           @keyframes slidein{
+            from{
+                color: red;
+                transform: translateX(0px)}
+                to{
+                    color: green;
+                    transform: translateX(1000px);
+                }
+           }
+           @keyframes spin{
+            0%{
+                transform: rotate(0deg);
+                background-color: aqua;
+            }
+            100%{
+                background-color: brown;
+                transform: rotate(180deg);
+            }
+           }
+        
+          
+    </style>
+    
+
+    
+</head>
+<body>
+    <h1>hello world</h1>
+    <p id="hello">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, temporibus. Facere magni quasi consectetur eveniet sequi rem amet qui dignissimos tempora. Explicabo eligendi quibusdam doloremque quia neque dolorum facilis unde!</p>
+<div id="mydiv">
+    <p>my animation</p>
+</div>
+</body>
+</html>
